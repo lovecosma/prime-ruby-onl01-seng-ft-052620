@@ -1,6 +1,6 @@
 def prime?(number)
 if number < 0
-  number *= 1
+  number = number * -1
 end
 i = 2
 range = []
