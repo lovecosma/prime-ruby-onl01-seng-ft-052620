@@ -8,8 +8,6 @@ end
 if range.any? do |value|
 value == 0
 end
-return false
-else
-return true
+puts range
 end
 end
