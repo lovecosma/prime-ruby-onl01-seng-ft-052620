@@ -1,8 +1,8 @@
 def prime?(number)
 i = 2
 range = []
-if number < 0
-return false
+if number < 2
+  return false
 end
 while i < number-1
   range << number % i
