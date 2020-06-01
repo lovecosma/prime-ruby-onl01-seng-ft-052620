@@ -1,5 +1,5 @@
 def prime?(number)
-i = 1
+i = 2
 range = []
 while i < number-1
   range << number % i
@@ -8,6 +8,8 @@ end
 if range.any? do |value|
 value == 0
 end
-return range
+return false
+else 
+return true
 end
 end
