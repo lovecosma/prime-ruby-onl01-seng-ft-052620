@@ -1,7 +1,7 @@
 def prime?(number)
-if number < 0 
+if number < 0
   number *= 1
-end 
+end
 i = 2
 range = []
 while i < number-1
