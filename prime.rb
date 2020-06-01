@@ -9,7 +9,7 @@ if range.any? do |value|
 value == 0
 end
 return false
-else 
+else
 return true
 end
 end
