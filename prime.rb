@@ -2,7 +2,7 @@ def prime?(number)
 i = 2
 range = []
 if number < 0
-  number *= 1
+return false
 end
 while i < number-1
   range << number % i
