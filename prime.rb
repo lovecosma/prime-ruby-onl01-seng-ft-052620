@@ -1,5 +1,7 @@
 def prime?(number)
-number = abs(number)
+if number < 0 
+  number *= 1
+end 
 i = 2
 range = []
 while i < number-1
