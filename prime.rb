@@ -1,7 +1,4 @@
 def prime?(number)
-if number < 0
-  number = number * -1
-end
 i = 2
 range = []
 while i < number-1
